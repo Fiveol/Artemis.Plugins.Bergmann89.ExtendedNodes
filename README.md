@@ -1,7 +1,5 @@
-# Congratulations, you can now start developing your plugin!
+This is a simple [Artemis](https://artemis-rgb.com/) plugin that provides additional nodes for the visual script editor.
 
-Next steps:
-- Change the solution name to something more meaningful
-- Fill in the plugin.json file with the correct information
-- Fix the build.yml so it uploads the built plugin
-- Update this README.md file with relevant information about your plugin
+Currently the following nodes are implemented:
+
+- **WeightedAverageNode**: A node that is used to calculate the weighted average of a given value over time.
