@@ -1,0 +1,15 @@
+{
+    "Guid": "9301A33F-6B76-45B9-BD16-423180A18BDC",
+    "Name": "Plugin Name",
+    "Description": "Plugin Description",
+    "Author": "",
+    "Website": "",
+    "Repository": "",
+    "Icon": "QuestionMark",
+    "Version": "1.0.0.0",
+    "Main": "Artemis.Plugins.ExtendedNodes.dll",
+    "AutoEnableProperties": true,
+    "RequiresAdmin": false,
+    "Platforms": "Windows,Linux,OSX",
+    "Api": "1.0.0"
+}
