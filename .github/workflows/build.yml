@@ -9,13 +9,12 @@ jobs:
 
     steps:
       - name: Clone
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Build
         run: dotnet publish -c Release src
-
-      # You'll need to fill in the name of your plugin here
-      # - name: Upload
-      #   uses: actions/upload-artifact@v3
-      #   with:
-      #     path: src/{{pluginName}}/bin/x64/Release/net7.0/publish
+        
+      - name: Upload
+        uses: actions/upload-artifact@v4
+        with:
+          path: src/Artemis.Plugins.ExtendedNodes/bin/x64/Release/net10.0/publish
